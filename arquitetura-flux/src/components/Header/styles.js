@@ -12,4 +12,23 @@ export const Cart = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  div {
+    text-align: right;
+    margin-right: 10px;
+
+    strong {
+      display: block;
+      color: #fff;
+    }
+
+    span {
+      font-size: 12px;
+      color: #999;
+    }
+  }
 `;

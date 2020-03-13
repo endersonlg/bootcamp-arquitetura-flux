@@ -1,7 +1,7 @@
 import React from 'react';
-import { link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-import { MdShoppingBasket } from 'react-icons';
+import { MdShoppingBasket } from 'react-icons/md';
 
 import { Container, Cart } from './styles';
 import logo from '../../assets/images/logo.svg';
@@ -9,9 +9,9 @@ import logo from '../../assets/images/logo.svg';
 export default function Header() {
   return (
     <Container>
-      <link to="/">
+      <Link to="/">
         <img src={logo} alt="Rocketshoes" />
-      </link>
+      </Link>
       <Cart to="/cart">
         <div>
           <strong>Meu carrinho</strong>
